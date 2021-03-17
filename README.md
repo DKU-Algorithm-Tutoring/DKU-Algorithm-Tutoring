@@ -25,7 +25,7 @@
 ### :family: Member
 
 
-Tutor : [박민혁](https://github.com)
+Tutor : [박민혁](https://github.com/m1nnh)
 
 Tutee
 
@@ -40,8 +40,8 @@ Tutee
 ### :date: Tutoring Plan
 
 
-- 1주차(2021년 3월 24일) : [튜터링 커리큘럼 및 취업 준비 과정 설명](https://github.com/m1nnh/DKU-Algorithm-Tutoring/blob/master/Tutoring_Data/Lecture_Note_Week1.pptx)
-- 2주차(2021년 3월 31일) : 파이썬 주요 문법 설명1
+- 1주차(2021년 3월 24일) : [튜터링 커리큘럼 및 취업 준비 과정 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week1.pdf)
+- 2주차(2021년 3월 31일) : [파이썬 주요 문법 설명1](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week2.pdf)
 - 3주차(2021년 4월 07일) : 파이썬 주요 문법 설명2 및 기타 알고리즘 설명
 - 4주차(2021년 4월 14일) : Greedy Algorithm 및 Implementation 설명
 
