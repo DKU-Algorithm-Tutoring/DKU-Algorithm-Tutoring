@@ -31,9 +31,10 @@ Tutee
 
 - 소프트웨어학과 곽다은
 - 소프트웨어학과 김정호
-- 스프트웨어학고 안지성
+- 스프트웨어학과 안지성
 - 소프트웨어학과 이승준
-- 스프트워에학과 이호영
+- 스프트워어학과 이호영
+- 소프트웨어학과 최재민
 - 소프트웨어학과 한승진
 
 
@@ -42,7 +43,7 @@ Tutee
 
 - 1주차(2021년 3월 24일) : [튜터링 커리큘럼 및 취업 준비 과정 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week1.pdf)
 - 2주차(2021년 3월 31일) : [파이썬 주요 문법 설명1](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week2.pdf)
-- 3주차(2021년 4월 07일) : 파이썬 주요 문법 설명2 및 기타 알고리즘 설명
+- 3주차(2021년 4월 07일) : [파이썬 주요 문법 설명2 및 기타 알고리즘 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week3.md)
 - 4주차(2021년 4월 14일) : Greedy Algorithm 및 Implementation 설명
 
 - 중간고사 기간 휴식 예정
