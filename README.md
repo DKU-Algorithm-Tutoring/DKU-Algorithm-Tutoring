@@ -30,10 +30,10 @@ Tutor : [박민혁](https://github.com/m1nnh)
 Tutee
 
 - 소프트웨어학과 곽다은
-- 소프트웨어학과 김정호
+- [소프트웨어학과 김정호](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/김정호)
 - 스프트웨어학과 안지성
-- 소프트웨어학과 이승준
-- 스프트워어학과 이호영
+- [소프트웨어학과 이승준](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/이승준)
+- [스프트워어학과 이호영](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/이호영)
 - 소프트웨어학과 최재민
 - 소프트웨어학과 한승진
 
