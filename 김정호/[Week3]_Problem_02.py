@@ -1,26 +1,22 @@
-from collections import deque
-
-T = int(input())
-for j in range (T) :
-    N, M = map(int, input().split())
-    print_list = input().split(' ')
+n=int(input())
+for _ in range(n):
+    a, b = map(int, input().split())
+    lst = list(map(int, input().split()))
     count = 1
-    dq = deque(print_list)
-    for i in range(len(print_list)):
-        print_list[i] = int(print_list[i])
-    while(True) :
-        if dq[0] != max(dq) :
-            dq.append(dq[0])
-            dq.popleft()
-            if M == 0 :
-                M = len(dq) - 1
-            else :
-                M -= 1
-        else :
-            dq.popleft()
-            if M == 0 :
-                print(count)
-                break
-            else :
-                count += 1
-                M -= 1
+    while True:
+        if lst[0] != max(lst):
+            save = lst[0]
+            lst.pop(0)
+            lst.append(save)
+            if b == 0:
+                b = len(lst) - 1
+            else:
+                b = b - 1
+        else:
+            lst.pop(0)
+            if b == 0:
+                 print(count)
+                 break
+            else:
+                 count += 1
+                 b -= 1

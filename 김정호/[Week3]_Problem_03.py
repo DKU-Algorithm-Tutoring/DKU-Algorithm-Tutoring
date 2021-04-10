@@ -1,19 +1,13 @@
-import heapq
-
-N = int(input())
-N_list = []
-for i in range(N) :
-    N_list[i] = input()
-    N_list[i] = int(N_list[i])
-heap = []
-for i in range(N) :
-    if N_list[i] == 0 :
-        if heap is not None :
-            heapq.heappop(heap)
-            print(heap[0])
-        else :
-            print("0")
-
-
-
-
+n=int(input())
+qoduf=[]
+for _ in range(n):
+     x=int(input())
+     if x==0:
+        if len(qoduf)==0:
+            print('0')
+        else:
+            mini=min(qoduf)
+            print(mini)
+            qoduf.remove(mini)
+     else:
+        qoduf.append(x)
