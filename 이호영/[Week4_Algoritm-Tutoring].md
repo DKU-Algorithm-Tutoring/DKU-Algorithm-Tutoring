@@ -10,7 +10,7 @@
 - 00시 02분 55초
 - 01시 27분 45초   
 
-'''python
+```python
 n = int(input())
 count =0
 for hour in range(n+1):
@@ -23,7 +23,7 @@ for hour in range(n+1):
                     break
 print(count)
 
-'''   
+``` 
 
 ## 2
 각 자리가 숫자(0부터 9)로만 이루어진 문자열 S가 주어졌을 때,
@@ -34,7 +34,7 @@ print(count)
 또한 만들어질 수 있는 가장 큰 수는 항상 20억 이하의 정수가 되도록 입력이 주어집니다.    
 
 
-''' python
+``` python
 n = input()
 result = 1
 num = []
@@ -47,7 +47,7 @@ for i in num:
 print(result)
 
 
-'''   
+```  
 
 ## 3
 게임의 아웃복서 캐릭터는 필살기인 '럭키 스트레이트' 기술이 있습니다.
@@ -59,7 +59,7 @@ print(result)
 현재 점수 N이 주어지면 럭키 스트레이트를 사용할 수 있는 상태인지 아닌지를 알려주는 프로그램을 작성하세요.   
 
 
-''' python
+``` python
 n = input()
 left =[]
 right = []
@@ -74,5 +74,5 @@ if sum(left)==sum(right):
 else:
     print("READY")
 
-'''
+```
 
