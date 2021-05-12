@@ -106,38 +106,36 @@ food_times의 길이는 1 이상 200,000 이하입니다.
 food_times의 원소는 1 이상 100,000,000 이하의 자연수입니다.
 k는 1 이상 2 x 1013 이하의 자연수입니다.
 
-코드
-def solution(food_time, K):
+코드def solution(food_time, K):
     N = K // len(food_time)
-    M = K % len(food_time)
-    c = 0
+    M = K % len(food_time)  #food_time 각 요소에 N을 뺴고 남은 나머지
+    c = 0   #인덱스값 저장용
 
-    for i in range(len(food_time)):
+    for i in range(len(food_time)): ##food_time각 요소에 -N하기
         food_time[i] -= N
-        if food_time[i] <= 0:
-            M += -(food_time[i])
-            food_time[i] = False
+        if food_time[i] <= 0:   #food_time[i]의 값이 0이하일 경우
+            M += -(food_time[i])    #food_time[i]의 값에 -를 붙인 후 M에 더하기
+            food_time[i] = False    #food_time[i]를 False로 지정, 뒤에 나올 반복문에서 건너뛰기 위함
 
-    while M != 0:
+    while M != 0:   #남은 M 처분 반복문
         for i in range(len(food_time)):
-            if food_time[i]:
+            if food_time[i]:    #food_time[i]가 True면 1빼기
                 food_time[i] -= 1
                 M -= 1
-                c = i
+                c = i   #c에 인덱스값 저장
             if food_time[i] == 0:
                 food_time[i] = False
 
-        c += 1
-
         for i in range(len(food_time)):
-            if c == len(food_time):
+            if c == len(food_time): #c에 1을 추가했을때 그 값이 최대문제와 같다면 다음인
                 c = 0
 
-            if food_time[c]:
-                return c+1
+            if food_time[c]:    #food_time[c]에 값이 있으면
+                return c+1      #출력할때의 순서는 1부터 시작이기 때문에 1추가
 
-            else:
-                c += 1
+            else:               #food_time[c]에 값이 없으면
+                c += 1          #c+1
+
 ===============================================================================================================================================================
 💬 Problem
 게임의 아웃복서 캐릭터는 필살기인 '럭키 스트레이트' 기술이 있습니다. 이 기술은 매우 강력한 대신에 게임 내에서 점수가 특정 조건을 만족할 때만 사용할 수 있습니다. 특정 조건이란 현재 캐릭터의 점수를 N이라고 할 때 자릿수를 기준으로 점수 N을 반으로 나누어 왼쪽 부분의 각 자릿수의 합과 오른쪽 부분의 각 자릿수의 합을 더한 값이 동일한 상황을 의미합니다. 예를 들어 현재 점수가 123,402라면 왼쪽 부분의 각 자릿수의 합은 1 + 2 + 3, 오른쪽 부분의 각 자릿수의 합은 4 + 0 + 2 이므로 두 합이 6으로 동일하여 럭키 스트레이트를 사용할 수 있습니다. 현재 점수 N이 주어지면 럭키 스트레이트를 사용할 수 있는 상티인지 아닌지를 알려주는 프로그램을 작성하세요.
