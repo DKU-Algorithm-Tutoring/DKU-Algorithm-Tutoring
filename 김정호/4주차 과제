@@ -268,3 +268,19 @@ while True:
         lst.pop(len(lst)-1)
     group+=1
 ___________________________________
+food=list(map(int,input().split()))
+k=int(input())
+idx=-1
+while True:
+    idx += 1
+    idx%=len(food)
+    if food[idx]==0:
+        continue
+    food[idx]-=1
+    k-=1
+    if k==0:
+        print(idx-1)
+        break
+    if food is None:
+        print("-1")
+        break
