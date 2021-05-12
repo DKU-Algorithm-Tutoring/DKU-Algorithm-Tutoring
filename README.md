@@ -48,7 +48,7 @@ Tutee
 - 중간고사 기간 휴식 예정
 
 - 4주차(2021년 5월 6일) : [Greedy Algorithm](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Greedy-Algorithm.md) 및 [Implementation](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Implementation.md) 설명
-- 5주차(2021년 5월 12일) : DFS / BFS 설명
+- 5주차(2021년 5월 12일) : [DFS / BFS](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/BFS:DFS.md)
 - 6주차(2021년 5월 19일) : Sort 및 Binary Search 설명
 - 7주차(2021년 5월 26일) : Dynamic Programming 설명
 - 8주차(2021년 6월 02일) : Shortest Path 및 Graph 설명
