@@ -65,3 +65,29 @@ for i in range(N):
         if dfs(u,i) is True:
             count+=1
 print(count)
+
+SourceCode (재귀함수 사용)
+N, M = map(int, input().split())
+dx=[0,0,-1,1]
+dy=[1,-1,0,0]
+graph = []
+for i in range(N):
+    graph.append(list(map(int, input().split())))
+count=0
+def dfs(x,y):
+    if graph[x][y]!=0:
+        return False
+    graph[x][y] = 1
+    for i in range(4):
+        new_x = x + dx[i]
+        new_y=y+ dy[i]
+        if 0<=new_x and new_x<M and new_y>=0 and new_y<N:
+            if graph[new_x][new_y]==0:
+                dfs(new_x,new_y)
+    return  True
+
+for i in range(N):
+    for u in range(M):
+        if dfs(u,i) is True:
+            count+=1
+print(count)
