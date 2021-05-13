@@ -1,0 +1,67 @@
+💬 음료수 얼려 먹기
+N x M 크기의 얼음 틀이 있다. 구멍이 뚫려 있는 부분은 0, 칸막이가 존재하는 부분은 1로 표시된다. 
+구멍이 뚫려 있는 부분끼리 상, 하, 좌, 우로 붙어 있는 경우 서로 연결되어 있는 것으로 간주한다. 
+이때 얼음 틀의 모양이 주어졌을 때 생성되는 총 아이스크림의 개수를 구하는 프로그램을 작성하시오.
+
+SourceCode (재귀함수x dfs 사용)
+N, M = map(int, input().split())
+dx=[0,0,-1,1]
+dy=[1,-1,0,0]
+graph = []
+for i in range(N):
+    graph.append(list(map(int, input().split())))
+stack=[]
+count=0
+def dfs(x,y):
+    if graph[x][y]!=0:
+        return False
+    stack.append((x,y))
+    graph[x][y]=1
+
+    while stack:
+        x,y=stack.pop()
+        for i in range(4):
+            now_x=x+dx[i]
+            now_y=y+dy[i]
+            if now_x>=0 and now_x<M and now_y>=0 and now_y<N:
+                if graph[now_x][now_y]==0:
+                    stack.append((now_x,now_y))
+                    graph[now_x][now_y]=1
+    return True
+for i in range(N):
+    for u in range(M):
+        if dfs(u,i) is True:
+            count+=1
+print(count)
+
+SourceCode (재귀함수x bfs 사용)
+from collections import deque
+N, M = map(int, input().split())
+dx=[0,0,-1,1]
+dy=[1,-1,0,0]
+graph = []
+for i in range(N):
+    graph.append(list(map(int, input().split())))
+deq=deque()
+count=0
+def dfs(x,y):
+    if graph[x][y]!=0:
+        return False
+    deq.append((x,y))
+    graph[x][y]=1
+
+    while deq:
+        x,y=deq.popleft()
+        for i in range(4):
+            now_x=x+dx[i]
+            now_y=y+dy[i]
+            if now_x>=0 and now_x<M and now_y>=0 and now_y<N:
+                if graph[now_x][now_y]==0:
+                    deq.append((now_x,now_y))
+                    graph[now_x][now_y]=1
+    return True
+for i in range(N):
+    for u in range(M):
+        if dfs(u,i) is True:
+            count+=1
+print(count)
