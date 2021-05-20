@@ -56,3 +56,142 @@ for a in range(len(count)):
     print(count[a][0])
 
 ```
+# 2
+신종 바이러스인 웜 바이러스는 네트워크를 통해 전파된다.
+한 컴퓨터가 웜 바이러스에 걸리면 그 컴퓨터와 네트워크 상에서 연결되어 있는 모든 컴퓨터는 웜 바이러스에 걸리게 된다.
+예를 들어 7대의 컴퓨터가 <그림 1>과 같이 네트워크 상에서 연결되어 있다고 하자.
+1번 컴퓨터가 웜 바이러스에 걸리면 웜 바이러스는 2번과 5번 컴퓨터를 거쳐 3번과 6번 컴퓨터까지 전파되어
+2, 3, 5, 6 네 대의 컴퓨터는 웜 바이러스에 걸리게 된다. 하지만 4번과 7번 컴퓨터는 1번 컴퓨터와 네트워크상에서 연결되어 있지 않기 때문에 영향을 받지 않는다.
+어느 날 1번 컴퓨터가 웜 바이러스에 걸렸다.
+컴퓨터의 수와 네트워크 상에서 서로 연결되어 있는 정보가 주어질 때, 1번 컴퓨터를 통해 웜 바이러스에 걸리게 되는 컴퓨터의 수를 출력하는 프로그램을 작성하시오.
+
+``` python
+from collections import deque
+import sys
+n = int(input())
+m = int(input())
+com = []
+graph = [[0]]
+visited = [False] * (n+1)
+
+
+for i in range(m):
+    co = list(map(int,sys.stdin.readline().split()))
+    com.append(co)
+for j in range(m):
+    com[j].sort
+for k in range(n):
+    graph.append([])
+    for l in range(m):
+        if k+1 in com[l]:
+            if k+1==com[l][0]:
+                graph[k+1].append(com[l][1])
+            else:
+                graph[k + 1].append(com[l][0])
+
+
+def bfs(Graph, s, Visited):
+    queue = deque([s])
+    Visited[s] = True
+    count = 0
+    while queue:
+        v = queue.popleft()
+        count+=1
+
+        for i in Graph[v]:
+            if Visited[i] is False:
+                queue.append(i)
+                Visited[i] = True
+    return count
+
+
+result=bfs(graph, 1, visited)
+print(result-1)
+```
+
+# 3
+방향 없는 그래프가 주어졌을 때, 연결 요소 (Connected Component)의 개수를 구하는 프로그램을 작성하시오.
+``` python
+from collections import deque
+import sys
+n,m = map(int, input().split())
+
+com = []
+graph = [[0]]
+visited = [False] * (n+1)
+count = 0
+for i in range(m):
+    co = list(map(int,sys.stdin.readline().split()))
+    com.append(co)
+for j in range(m):
+    com[j].sort
+for k in range(n):
+    graph.append([])
+    for l in range(m):
+        if k+1 in com[l]:
+            if k+1==com[l][0]:
+                graph[k+1].append(com[l][1])
+            else:
+                graph[k + 1].append(com[l][0])
+def bfs(Graph, s, Visited):
+    queue = deque([s])
+    Visited[s] = True
+    while queue:
+        v = queue.popleft()
+        for i in Graph[v]:
+            if Visited[i] is False:
+                queue.append(i)
+                Visited[i] = True
+
+for o in range(n):
+    if visited[o+1] is False:
+        bfs(graph, o+1, visited)
+        count+=1
+print(count)
+```
+
+# 4
+정사각형으로 이루어져 있는 섬과 바다 지도가 주어진다. 섬의 개수를 세는 프로그램을 작성하시오.
+한 정사각형과 가로, 세로 또는 대각선으로 연결되어 있는 사각형은 걸어갈 수 있는 사각형이다. 
+두 정사각형이 같은 섬에 있으려면, 한 정사각형에서 다른 정사각형으로 걸어서 갈 수 있는 경로가 있어야 한다.
+지도는 바다로 둘러싸여 있으며, 지도 밖으로 나갈 수 없다.
+
+``` python
+from collections import deque
+graph = []
+dx = [-1,1,0,0,-1,1,-1,1]
+dy = [0,0,-1,1,1,-1,-1,1]
+def apt(y,x):
+    que = deque()
+    que.append((x,y))
+    if graph[x][y]== 0:
+        return False
+    while que:
+        x,y = que.popleft()
+        for i in range(8):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if nx<0 or ny<0 or nx>=m or ny>=n:
+                continue
+            if graph[nx][ny]==0:
+                continue
+            if graph[nx][ny]==1:
+                    que.append((nx,ny))
+                    graph[x][y]=0
+                    graph[nx][ny]=0
+    return True
+while True:
+    n, m = map(int, input().split())
+    count = 0
+    graph = []
+    if n==0 and m==0:
+        exit(0)
+    for _ in range(m):
+        graph.append(list(map(int,input().split())))
+    for h in range(m):
+        for w in range(n):
+            result=apt(w,h)
+            if result == True:
+                count += 1
+    print(count)
+```
