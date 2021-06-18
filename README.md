@@ -51,11 +51,10 @@ Tutee
 - 5주차(2021년 5월 12일) : [DFS / BFS](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/BFS:DFS.md)
 - 6주차(2021년 5월 19일) : Sort 및 Binary Search 설명
 - 7주차(2021년 5월 26일) : Dynamic Programming 설명
-- 8주차(2021년 6월 02일) : Shortest Path 및 Graph 설명
+- 기말고사 기간 휴식
 
-- 기말고사 기간 휴식 예정
-
-- 9주차(2021년 6월 21일) : 코딩 테스트 실전 준비
-- 10주차(2021년 6월 28일) : 라이브 코딩 테스트 및 본인이 9주차에 진행했던 코딩 테스트 알고리즘 설명
+- 8주차(2021년 6월 30일) : Shortest Path 및 Graph 설명
+- 9주차(2021년 7월 7일) : 코딩 테스트 실전 및 마무리
+ 
 
 
