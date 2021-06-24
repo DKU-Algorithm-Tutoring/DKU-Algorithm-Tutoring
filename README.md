@@ -45,12 +45,13 @@ Tutee
 - 2주차(2021년 3월 31일) : [파이썬 주요 문법 설명1](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week2.pdf)
 - 3주차(2021년 4월 07일) : [파이썬 주요 문법 설명2 및 기타 알고리즘 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week3.md)
 
-- 중간고사 기간 휴식 예정
+- 중간고사 기간 휴식
 
-- 4주차(2021년 5월 6일) : [Greedy Algorithm](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Greedy-Algorithm.md) 및 [Implementation](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Implementation.md) 설명
+- 4주차(2021년 5월 6일) : [그리디 알고리즘](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Greedy-Algorithm.md) 및 [구현](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Implementation.md) 설명
 - 5주차(2021년 5월 12일) : [DFS / BFS](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/BFS:DFS.md)
-- 6주차(2021년 5월 19일) : Sort 및 Binary Search 설명
-- 7주차(2021년 5월 26일) : Dynamic Programming 설명
+- 6주차(2021년 5월 19일) : [정렬](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Sort.md) 및 [이진 탐색](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Binary-Search.md) 설명
+- 7주차(2021년 5월 26일) : [Dynamic Programming](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Dynamic-Programming.md) 설명
+
 - 기말고사 기간 휴식
 
 - 8주차(2021년 6월 30일) : Shortest Path 및 Graph 설명
