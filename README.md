@@ -54,7 +54,7 @@ Tutee
 
 - 기말고사 기간 휴식
 
-- 8주차(2021년 6월 30일) : Shortest Path 및 Graph 설명
+- 8주차(2021년 6월 30일) : [Shortest Path](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/ShortestPath-Algorithm.md) 및 [Graph](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Graph-Algorithm.md) 설명
 - 9주차(2021년 7월 7일) : 코딩 테스트 실전 및 마무리
  
 
