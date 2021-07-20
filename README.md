@@ -27,21 +27,23 @@ Tutor : [박민혁](https://github.com/m1nnh)
 
 Tutee
 
-- 소프트웨어학과 곽다은
-- 소프트웨어학과 김정호
-- 소프트웨어학과 안지성
-- 소프트웨어학과 이승준
-- 소프트웨어학과 이호영
-- 소프트웨어학과 최재민
-- 소프트웨어학과 한승진
+Tutee| Week1 | Week2 | Week3 | Week4 | Week5 | Week6 | Week7 | Week8 | Test | A-Rate
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+소프트웨어학과 곽다은 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 100%
+소프트웨어학과 김정호 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 100%
+소프트웨어학과 안지성 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 100%
+소프트웨어학과 이승준 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 100%
+소프트웨어학과 이호영 | ✅ | ✅ | ✅ |  | ✅ | ✅ | ✅ | ✅ | ✅ | 88.9%
+소프트웨어학과 최재민 |  |  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 77.8%
+소프트웨어학과 한승진 | ✅ | ✅ | ✅ | | ✅ | ✅ | ✅ | ✅ | ✅ | 88.9%
 
 
 ### :date: Tutoring Plan
 
 
-- 1주차(2021년 3월 24일) : [튜터링 커리큘럼 및 취업 준비 과정 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week1.pdf)
-- 2주차(2021년 3월 31일) : [파이썬 주요 문법 설명1](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week2.pdf)
-- 3주차(2021년 4월 07일) : [파이썬 주요 문법 설명2 및 기타 알고리즘 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Lecture_Note_Week3.md)
+- 1주차(2021년 3월 24일) : [튜터링 커리큘럼 및 취업 준비 과정 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Company-Process.pdf)
+- 2주차(2021년 3월 31일) : [파이썬 주요 문법 설명1](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Basic-Python.pdff)
+- 3주차(2021년 4월 07일) : [파이썬 주요 문법 설명2 및 기타 알고리즘 설명](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/blob/master/TutoringData/Etc-Algorithm.md)
 
 - 중간고사 기간 휴식
 
