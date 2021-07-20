@@ -8,19 +8,17 @@
 
 - 파이썬 문법 완벽 이해하기.
 - [백준](https://www.acmicpc.net) 골드 이상 문제를 풀수 있는 실력 기르기.
-- [프로그래머스](https://programmers.co.kr) Level3 문제를 풀수 있는 실력 기르기.
+- [프로그래머스](https://programmers.co.kr) Level2 문제를 풀수 있는 실력 기르기.
 - 주요 알고리즘 문법을 설명 할 수 있는 능력 기르기.
 - 자신의 코드를 완벽하게 이해하고 다르 사람에게 설명하는 방법 기르기.
 
 
 ### :ballot_box_with_check: Tutoring Rule
 
-
-- 2회 이상 불참 시 튜터링 제외
 - 매주 수업 진행 전 일주일 동안 자신이 푼 문제 중 자신있는 문제 한 개를 골라서 설명
 - 모르는 부분이 있으면 바로바로 피드백 받을 것
 - Tutoring에서 설명한 내용 및 자신이 풀었던 문제들 github에 commit하기
-
+- blog 시작하기
 
 ### :family: Member
 
@@ -29,13 +27,13 @@ Tutor : [박민혁](https://github.com/m1nnh)
 
 Tutee
 
-- [소프트웨어학과 곽다은](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/곽다은)
-- [소프트웨어학과 김정호](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/김정호)
-- [스프트웨어학과 안지성](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/안지성)
-- [소프트웨어학과 이승준](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/이승준)
-- [스프트워어학과 이호영](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/이호영)
+- 소프트웨어학과 곽다은
+- 소프트웨어학과 김정호
+- 소프트웨어학과 안지성
+- 소프트웨어학과 이승준
+- 소프트웨어학과 이호영
 - 소프트웨어학과 최재민
-- [소프트웨어학과 한승진](https://github.com/DKU-Algorithm-Tutoring/DKU-Algorithm-Tutoring/tree/master/한승진)
+- 소프트웨어학과 한승진
 
 
 ### :date: Tutoring Plan
